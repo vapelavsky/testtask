@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topSpacer {
+    height: 10vh;
+}
+
+.contentStack {
+    width: 50%;
+    min-width: 200px;
+    max-width: 400px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.centeredContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
